@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=VB-Encrypt v1.0.3
+
+
+[Package|VB-Encrypt v1.0.3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Black Light Software\VB-Encrypt\v1.00\Package
+
+[Package|VB-Encrypt v1.0.3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|VB-Encrypt v1.0.3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|VB-Encrypt v1.0.3|Files Found]
+
+[Package|VB-Encrypt v1.0.3|Files Released]
+
+[Package|VB-Encrypt v1.0.3|Missing Dependency Information]
+
+[Package|VB-Encrypt v1.0.3|Out-of-Date Dependency Information]
+
+[Package|VB-Encrypt v1.0.3|Files Added]
+
+[Package|VB-Encrypt v1.0.3|Files Removed]
+
+[Package|VB-Encrypt v1.0.3|Files In Project]
+C:\WINDOWS\Desktop\VB-Encrypt.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|VB-Encrypt v1.0.3|Configure Registry Files]
+Applicable=No
+
+[Package|VB-Encrypt v1.0.3|Configure Remote Servers]
+Applicable=No
+
+[Package|VB-Encrypt v1.0.3|Install Locations]
+C:\WINDOWS\Desktop\VB-Encrypt.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|VB-Encrypt v1.0.3|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\VB-Encrypt.exe=No
+
+[Package|VB-Encrypt v1.0.3|Distribution]
+Type=single
+Size=
+Title=VB-Encrypt
+
+[Package|VB-Encrypt v1.0.3|IconGroups]
+Group0=VB-Encrypt
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|VB-Encrypt v1.0.3|VB-Encrypt]
+Icon1=VB-Encrypt.exe
+Title1=VB-Encrypt
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|VB-Encrypt v1.0.3|Package]
+PackageFolder=C:\WINDOWS\Desktop\Black Light Software\VB-Encrypt\v1.00\Package
+ProjectFolder=C:\WINDOWS\Desktop\Black Light Software\VB-Encrypt\v1.00
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Black Light Software\VB-Encrypt\v1.00\Package\setup.exe
+File2=C:\WINDOWS\Desktop\Black Light Software\VB-Encrypt\v1.00\Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\Black Light Software\VB-Encrypt\v1.00\Package\VB-Encrypt.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
